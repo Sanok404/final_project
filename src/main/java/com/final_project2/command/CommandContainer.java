@@ -20,28 +20,28 @@ public class CommandContainer {
         commands.put("showAllUsers", new ShowAllUsersCommand());
         commands.put("addNewCar", new AddNewCarCommand());
         commands.put("getNewCarImageUrl", new AddCarImageUrlCommand());
-        commands.put("showCarCardPage", new ShowCardCarPageCommand());// показываем карточку по товару
-        commands.put("getAllCarClass", new GetAllClassCommand());//берем все классы авто для меню выборки
-        commands.put("getAllBrands", new GetAllBrandsCommand());//берем все бренды для меню выборки
-        commands.put("getAllCarsByBrand", new GetAllCarsByBrandCommand());//берем все авто по бренду для отображения на странице
-        commands.put("getAllCarsByClass", new GetAllCarsByClassCommand());//берем все авто по классу для отображения на странице
-        commands.put("getAllCarsOrderByPriceAsc", new ShowAllCarsOrderByPriceAscCommand());//берем все авто с сортировкой по возрастанию цены
-        commands.put("getAllCarsOrderByPriceDesc", new ShowAllCarsOrderByPriceDescCommand());//берем все авто с сортировкой по убыванию цены
-        commands.put("getAllCarsOrderByBrandAsc", new ShowAllCarsOrderByBrandAscCommand());//берем все авто с сортировкой по возрастанию по бренду
-        commands.put("getAllCarsOrderByBrandDesc", new ShowAllCarsOrderByBrandDescCommand());//берем все авто с сортировкой по убыванию по бренду
-        commands.put("deleteCar", new DeleteCarCommand());//delete car
-        commands.put("editCarImageUrl", new EditCarImageUrlCommand());//upload new image
-        commands.put("editCar", new EditCarCommand());//upload new image
-        commands.put("confirmOrder", new ConfirmTheOrderCommand());//confirm New Order
-        commands.put("addNewOrder", new AddNewOrderCommand());//confirm New Order
-        commands.put("showAllOrders", new ShowAllOrdersCommand());//show all Orders in main page
-        commands.put("showCardOrderPage", new ShowCardOrderPageCommand());//show card order page
-        commands.put("setOrderStatus", new SetNewOrderStatusCommand());//set new Order status by admin or manager
-        commands.put("setInfoAboutDamage", new SetInfoAboutDamageCommand());//set info about Damage
-        commands.put("setLocale", new SetLocaleCommand());//set locale
-        commands.put("buttonAddNewCar", new ButtonAddNewCarCommand());//add new car button
-        commands.put("showInfoAboutUs", new ShowInfoAboutUs());//show info about Us
-        commands.put("showContactInfo", new ShowContactInfo());//show contact info
+        commands.put("showCarCardPage", new ShowCardCarPageCommand());
+        commands.put("getAllCarClass", new GetAllClassCommand());
+        commands.put("getAllBrands", new GetAllBrandsCommand());
+        commands.put("getAllCarsByBrand", new GetAllCarsByBrandCommand());
+        commands.put("getAllCarsByClass", new GetAllCarsByClassCommand());
+        commands.put("getAllCarsOrderByPriceAsc", new ShowAllCarsOrderByPriceAscCommand());
+        commands.put("getAllCarsOrderByPriceDesc", new ShowAllCarsOrderByPriceDescCommand());
+        commands.put("getAllCarsOrderByBrandAsc", new ShowAllCarsOrderByBrandAscCommand());
+        commands.put("getAllCarsOrderByBrandDesc", new ShowAllCarsOrderByBrandDescCommand());
+        commands.put("deleteCar", new DeleteCarCommand());
+        commands.put("editCarImageUrl", new EditCarImageUrlCommand());
+        commands.put("editCar", new EditCarCommand());
+        commands.put("confirmOrder", new ConfirmTheOrderCommand());
+        commands.put("addNewOrder", new AddNewOrderCommand());
+        commands.put("showAllOrders", new ShowAllOrdersCommand());
+        commands.put("showCardOrderPage", new ShowCardOrderPageCommand());
+        commands.put("setOrderStatus", new SetNewOrderStatusCommand());
+        commands.put("setInfoAboutDamage", new SetInfoAboutDamageCommand());
+        commands.put("setLocale", new SetLocaleCommand());
+        commands.put("buttonAddNewCar", new ButtonAddNewCarCommand());
+        commands.put("showInfoAboutUs", new ShowInfoAboutUs());
+        commands.put("showContactInfo", new ShowContactInfo());
     }
 
     private CommandContainer() {

@@ -77,8 +77,6 @@ K
 src/main/webapp/add_car.jsp,6\a\6aceb2f1d3668fc15b59fcfb015a1e10470fe0ba
 \
 ,src/main/webapp/WEB-INF/include/nav_bar.jspf,c\7\c792f7a33400cab1981b1f4580ed5fbf805db34f
-n
->src/main/java/com/final_project2/command/CommandContainer.java,a\8\a806c3f35c1a697dc81fd0c0a0993c9a9c78df22
 b
 2src/main/java/com/final_project2/db/DBManager.java,0\5\0513c978562856f31ac22f9e5d2dedbc66548d27
 N
