@@ -1,0 +1,6 @@
+
+W	java:S107Ô"<Method has 9 parameters, which is greater than 7 authorized.(îí¯íÿÿÿÿÿ
+V	java:S1254"<This block of commented-out lines of code should be removed.(ª¢®€ûÿÿÿÿ
+V	java:S125K"<This block of commented-out lines of code should be removed.( ËÜ¼üÿÿÿÿ
+L
+java:S1144M"6Remove this unused private "getTestConnection" method.(ıû¾
